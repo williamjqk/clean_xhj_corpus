@@ -1,0 +1,2 @@
+- xhj2chatterbot_json.py: 将xiaohuangji50w_nofenci.conv语料导出成chatterbot需要的json格式
+- 
