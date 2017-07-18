@@ -18,15 +18,18 @@ print('over trained file: chinese.greetings')
 chatbot.train("chatterbot.corpus.chinese.conversations")
 print('over trained file: chinese.conversations')
 
+chatbot.train("chatterbot.corpus.chinese.trivia")
+print('over trained file: chinese.trivia')
+
 # 所谓的小黄鸡的语料
 # chatbot.train("chatterbot.corpus.chinese.xiaohuangji")
-chatbot.train("chatterbot.corpus.chinese.xhj45.xiaohuangji4")
-print('over trained file: chinese.xhj45.xiaohuangji4')
+# chatbot.train("chatterbot.corpus.chinese.xhj45.xiaohuangji1")
+# print('over trained file: chinese.xhj45.xiaohuangji1')
 
 # %%
 # Get a response to an input statement
 # chatbot.get_response("Hello, how are you today?")
-chatbot.get_response("傻逼")
+chatbot.get_response("你傻啊?")
 
 
 # %%
